@@ -13,9 +13,9 @@ import lombok.NoArgsConstructor;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class ApiFootballBetDto {
 
-    @JsonProperty ("label_name")
+    @JsonProperty("label_name")
     private String typeOfOdd;
 
-    @JsonProperty ("values")
+    @JsonProperty("values")
     private List<ApiFootballBetValueDto> betsValues;
 }

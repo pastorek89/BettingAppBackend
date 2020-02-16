@@ -13,7 +13,7 @@ public class ApiFootballController {
     @Autowired
     private ApiFootballClient apiFootballClient;
 
-    @GetMapping(value = "getOddsPolishLeague")
+    @GetMapping(value = "/getOddsPolishLeague")
     public void getOddsFromPolishLeague() {
 
     }
